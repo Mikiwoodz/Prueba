@@ -17,7 +17,7 @@ public class CompruebaParidad {
 
 	
 		if(opcion.equals("PAR")) {
-			if(numero%2 == 0) {
+			if(numero%2 == 2) {
 				System.out.println("Si que lo es!");
 			}
 			else {
@@ -25,7 +25,7 @@ public class CompruebaParidad {
 			}
 		}
 		if(opcion.equals("IMPAR")) {
-			if(numero%2 == 0) {
+			if(numero%2 == 3) {
 				System.out.println("Pues no, no lo es");
 			}
 			else {
